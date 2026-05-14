@@ -58,30 +58,33 @@ Dirancang dengan arsitektur modern menggunakan Golang pada sisi backend dan Reac
         npm run dev
 
 📂 Struktur Proyek
+```text
 PRODANA-TEST/
 ├── backend/
-│   ├── cmd/                # Entry point aplikasi
+│   ├── cmd/            # Entry point aplikasi
 │   ├── internal/
-│   │   ├── config/         # Konfigurasi Database & Env
-│   │   ├── handlers/       # Logika API (termasuk AI Handler)
-│   │   ├── middleware/     # Auth & CORS Middleware
-│   │   ├── models/         # Schema Database
-│   │   └── utils/          # Helper (JWT, Password)
+│   │   ├── config/     # Konfigurasi Database & Env
+│   │   ├── handlers/   # Logika API (termasuk AI Handler)
+│   │   ├── middleware/ # Auth & CORS Middleware
+│   │   ├── models/     # Schema Database
+│   │   └── utils/      # Helper (JWT, Password)
 │   └── main.go
 └── frontend/
     ├── src/
-    │   ├── components/     # UI Components (Header, Footer, ProtectedRoute)
-    │   ├── Auth/          # Data Login (hooks, pages)
-    │   ├── Dashboard/          # Data User (components, hooks, pages)
-    │   ├── Product/          # Data Product (components, hooks, pages)
-    │   └── services/       # API Services (api, utils)
+    │   ├── components/ # UI Components (Header, Footer, ProtectedRoute)
+    │   ├── Auth/       # Data Login (hooks, pages)
+    │   ├── Dashboard/  # Data User (components, hooks, pages)
+    │   ├── Product/    # Data Product (components, hooks, pages)
+    │   └── services/   # API Services (api, utils)
+```
 
-Fitur       Admin   Editor  Viewer
-Lihat Data   ✅      ✅     ✅
-Tambah Data  ✅      ❌     ❌
-Edit Data    ✅      ✅     ❌
-Hapus Data   ✅      ✅     ❌
-Generate AI  ✅      ❌     ❌
+| Fitur | Admin | Editor | Viewer |
+| :--- | :---: | :---: | :---: |
+| Lihat Data | ✅ | ✅ | ✅ |
+| Tambah Data | ✅ | ❌ | ❌ |
+| Edit Data | ✅ | ✅ | ❌ |
+| Hapus Data | ✅ | ✅ | ❌ |
+| Generate AI | ✅ | ❌ | ❌ |
 
 👤 Developer
 Rizki Agung Dermawan
