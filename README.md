@@ -31,27 +31,27 @@ Dirancang dengan arsitektur modern menggunakan Golang pada sisi backend dan Reac
     - Google Gemini API Key
 
 2. Setup Backend
-# Masuk ke direktori backend
-cd backend
+    - Masuk ke direktori backend
+        cd backend
 
-# Install dependencies
-go mod tidy
+    - Install dependencies
+        go mod tidy
 
-# Set Environment Variable (Windows PowerShell)
-$env:APIKEY="YOUR_GEMINI_API_KEY"
+    - Set Environment Variable (Windows PowerShell)
+        $env:APIKEY="YOUR_GEMINI_API_KEY"
 
-# Jalankan server
-go run main.go
+    - Jalankan server
+        go run main.go
 
 3. Setup Frontend
-# Masuk ke direktori frontend
-cd frontend
+    - Masuk ke direktori frontend
+        cd frontend
 
-# Install dependencies
-npm install
+    - Install dependencies
+        npm install
 
-# Jalankan aplikasi
-npm run dev
+    - Jalankan aplikasi
+        npm run dev
 
 📂 Struktur Proyek
 PRODANA-TEST/
