@@ -29,8 +29,12 @@ Dirancang dengan arsitektur modern menggunakan Golang pada sisi backend dan Reac
     - Go (Minimal v1.21.4)
     - Node.js & npm
     - Google Gemini API Key
+    - PostgreSQL
 
-2. Setup Backend
+2. Setup Database
+    - Buat database baru
+
+3. Setup Backend
     - Masuk ke direktori backend
         cd backend
 
@@ -43,7 +47,7 @@ Dirancang dengan arsitektur modern menggunakan Golang pada sisi backend dan Reac
     - Jalankan server
         go run main.go
 
-3. Setup Frontend
+4. Setup Frontend
     - Masuk ke direktori frontend
         cd frontend
 
