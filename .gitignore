@@ -1,0 +1,22 @@
+# --- Backend ---
+backend/.env
+backend/bin/
+backend/*.exe
+backend/*.test
+backend/__debug_bin
+
+# --- Frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.DS_Store
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# --- OS & IDE ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.bak
